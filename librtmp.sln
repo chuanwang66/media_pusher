@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "librtmp", "librtmp\librtmp.vcproj", "{20D3BEC4-AE3D-442E-B704-6D03842C9352}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test\test.vcproj", "{3A9DAEBA-7BD0-49E7-B87A-C2D8911E8049}"
+	ProjectSection(ProjectDependencies) = postProject
+		{20D3BEC4-AE3D-442E-B704-6D03842C9352} = {20D3BEC4-AE3D-442E-B704-6D03842C9352}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tmp", "tmp\tmp.vcproj", "{E151C349-8E0F-4E54-BB9A-39AA7545074C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20D3BEC4-AE3D-442E-B704-6D03842C9352}.Debug|Win32.ActiveCfg = Debug|Win32
+		{20D3BEC4-AE3D-442E-B704-6D03842C9352}.Debug|Win32.Build.0 = Debug|Win32
+		{20D3BEC4-AE3D-442E-B704-6D03842C9352}.Release|Win32.ActiveCfg = Release|Win32
+		{20D3BEC4-AE3D-442E-B704-6D03842C9352}.Release|Win32.Build.0 = Release|Win32
+		{3A9DAEBA-7BD0-49E7-B87A-C2D8911E8049}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3A9DAEBA-7BD0-49E7-B87A-C2D8911E8049}.Debug|Win32.Build.0 = Debug|Win32
+		{3A9DAEBA-7BD0-49E7-B87A-C2D8911E8049}.Release|Win32.ActiveCfg = Release|Win32
+		{3A9DAEBA-7BD0-49E7-B87A-C2D8911E8049}.Release|Win32.Build.0 = Release|Win32
+		{E151C349-8E0F-4E54-BB9A-39AA7545074C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E151C349-8E0F-4E54-BB9A-39AA7545074C}.Debug|Win32.Build.0 = Debug|Win32
+		{E151C349-8E0F-4E54-BB9A-39AA7545074C}.Release|Win32.ActiveCfg = Release|Win32
+		{E151C349-8E0F-4E54-BB9A-39AA7545074C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
